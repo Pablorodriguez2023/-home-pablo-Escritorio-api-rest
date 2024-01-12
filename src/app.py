@@ -102,7 +102,7 @@ def eliminar_usuarios(id):
         return jsonify({'mensaje':"usuario eliminado"})      
                 
     except Exception as ex:
-        return jsonify({'mensaje':"error"})
+        return jsonify({'mensaje':"error"}), 
        
     
         
